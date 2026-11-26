@@ -1,0 +1,9 @@
+course_code,course,hours,mode,mandatory
+TR-101,Security Awareness,2,Online,Yes
+TR-102,POSH Awareness,1,Online,Yes
+TR-201,Python for Data Analysis,24,Classroom,No
+TR-202,Introduction to Machine Learning,32,Online,No
+TR-203,Building RAG Applications,16,Online,No
+TR-301,Lean Six Sigma Green Belt,40,Classroom,No
+TR-302,Root Cause Analysis and 8D,8,Classroom,No
+TR-401,Fire Safety and First Aid,4,Classroom,Yes

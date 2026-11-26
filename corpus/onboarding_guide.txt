@@ -1,0 +1,16 @@
+Yoho Technologies - New Employee Onboarding Guide
+
+Section 1: First Day
+Report to the HR desk at 9:30 AM on your joining day. Bring your ID proof, PAN card copy, and two passport-size photos. HR will issue your employee ID card and laptop.
+
+Section 2: Accounts and Tools
+IT will create your email, Slack and HRMS accounts on day one. Set up multi-factor authentication before 6 PM on your first day. Install VS Code, Git and Docker Desktop from the company software portal.
+
+Section 3: Probation
+The probation period is 6 months. Your manager will do a review at the end of month 3 and month 6. Confirmation is based on performance and attendance.
+
+Section 4: Training
+All new employees must complete the security awareness course within the first 2 weeks. GenAI engineers also complete an 8-week training roadmap covering Python, ML, deep learning, LLM apps, RAG and agents.
+
+Section 5: Working Hours
+Core working hours are 10 AM to 4 PM. Total working hours are 9 hours per day including a 1-hour lunch break. Attendance is marked through the HRMS app.

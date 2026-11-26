@@ -1,0 +1,7 @@
+Yoho Technologies - Minutes of the IT Steering Committee Meeting (2026-03-16)
+
+Section 1: Discussion
+The laptop refresh for 120 employees is approved for Q2. MFA adoption reached 96 percent.
+
+Section 2: Action item
+Block login for accounts without MFA from 1 April.

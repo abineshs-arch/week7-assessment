@@ -1,0 +1,16 @@
+part_code,product,material,unit_price_inr,production_line
+YT-1001,Hydraulic Pump Housing,cast iron,850,L1
+YT-1002,Gear Shaft,EN8 steel,1125,L2
+YT-1003,Brake Caliper,aluminium 6061,1400,L3
+YT-1004,Valve Body,SG iron,1675,L4
+YT-1005,Bearing Cap,stainless steel 304,1950,L5
+YT-1006,Flywheel,cast iron,2225,L1
+YT-1007,Piston Rod,EN8 steel,2500,L2
+YT-1008,Cylinder Head,aluminium 6061,2775,L3
+YT-1009,Fuel Rail,SG iron,3050,L4
+YT-1010,Steering Knuckle,stainless steel 304,3325,L5
+YT-1011,Crank Pulley,cast iron,3600,L1
+YT-1012,Oil Pan,EN8 steel,3875,L2
+YT-1013,Water Pump Impeller,aluminium 6061,4150,L3
+YT-1014,Clutch Plate,SG iron,4425,L4
+YT-1015,Exhaust Manifold,stainless steel 304,4700,L5
