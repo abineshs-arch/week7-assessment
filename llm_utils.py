@@ -1,6 +1,8 @@
-"""Shared Gemini helper: answer cache, model fallback on daily quota, retries on busy/network errors."""
+"""Shared Gemini helper: answer cache, lite models first (bigger free quota), model fallback,
+short retries on busy/network errors."""
 import hashlib
 import json
+import os
 import time
 from pathlib import Path
 
@@ -9,13 +11,11 @@ from google import genai
 from google.genai import errors, types
 
 CACHE = Path(__file__).parent / "llm_cache.json"
-
 load_dotenv()
 llm = genai.Client(http_options=types.HttpOptions(timeout=60_000))
 
 
 def is_net_error(e):
-    """True for connection drops/timeouts from httpx, httpx2, httpcore, httpcore2 or the OS."""
     mod = type(e).__module__ or ""
     return mod.startswith(("httpx", "httpcore")) or isinstance(e, (ConnectionError, TimeoutError))
 
@@ -34,7 +34,16 @@ def _retry(fn, tries=6):
 
 
 SKIP = ["tts", "audio", "live", "image", "embedding", "gemma", "gemini-1"]
-_rank = lambda n: 0 if ("flash" in n and "lite" not in n) else (1 if "flash-lite" in n else 2)
+
+
+def _rank(name):
+    if name.endswith(os.getenv("GEMINI_MODEL", "gemini-3.5-flash-lite")):
+        return 0                                   # preferred model first
+    if "flash-lite" in name:
+        return 1 if "3.5" in name else 2           # then other lite models (newest first)
+    return 3 if "flash" in name else 4            # full flash models last
+
+
 MODELS = sorted((m.name for m in _retry(lambda: list(llm.models.list())) if "gemini" in m.name
                  and "generateContent" in (m.supported_actions or [])
                  and not any(s in m.name for s in SKIP)), key=_rank)
@@ -50,7 +59,7 @@ def call_llm(prompt):
         if model in _dead:
             continue
         wait = 10
-        for _ in range(6):
+        for _ in range(3):
             try:
                 text = llm.models.generate_content(model=model, contents=prompt).text.strip()
                 _cache[key] = text
