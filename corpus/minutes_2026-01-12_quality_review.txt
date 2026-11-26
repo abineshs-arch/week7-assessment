@@ -1,0 +1,7 @@
+Yoho Technologies - Minutes of the Quality Review Meeting (2026-01-12)
+
+Section 1: Discussion
+First-pass yield was 97.8 percent against the 98.5 percent target. Brake Caliper rejections rose due to porosity from SUP-01.
+
+Section 2: Action item
+Raise an 8D with Sri Balaji Castings by 20 January.

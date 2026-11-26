@@ -1,0 +1,39 @@
+=== A1: What is the minimum password length?
+ANSWER: The minimum password length is 12 characters [it_security_policy.docx, p. 1; handbook.pdf, p. 6].
+CONTEXT:
+[Source: it_security_policy.docx, Page 1] Passwords must be at least 12 characters and include upper case, lower case, a number and a symbol. Passwords must be changed every 90 days. The last 5 passwords cannot be reused. Never sh
+[Source: handbook.pdf, Page 6] IT and Information Security Every employee receives a company email account and a laptop or desktop based on their role. Passwords must have at least 12 characters, including a number and a special c
+[Source: handbook.pdf, Page 6] hanged every 90 days. Two-factor authentication using the authenticator app is mandatory for email and for the ERP system. Never share your password with anyone, including members of the IT team, who
+[Source: data_privacy_policy.docx, Page 1] A data breach must be reported to the Data Protection Officer within 6 hours.
+
+=== A2: How long is the probation period?
+ANSWER: The probation period is 6 months [onboarding_guide.txt, p. 1].
+CONTEXT:
+[Source: onboarding_guide.txt, Page 1] The probation period is 6 months. Your manager will do a review at the end of month 3 and month 6. Confirmation is based on performance and attendance.
+[Source: remote_work_policy.docx, Page 1] Employees who have completed probation may work remotely up to 2 days per week.
+[Source: handbook.pdf, Page 10] d leave is paid out in the final settlement, but it cannot be used to shorten the notice period. The full and final settlement is completed within 45 days of the last working day. An exit interview 
+[Source: whistleblower_policy.docx, Page 1] Every report is investigated within 45 days.
+
+=== A3: How many vendor quotations are needed for purchases above Rs. 50,000?
+ANSWER: At least 3 vendor quotations are needed for purchases above Rs. 50,000 [procurement_policy.docx, p. 1].
+CONTEXT:
+[Source: procurement_policy.docx, Page 1] Purchases above Rs. 50,000 need at least 3 vendor quotations.
+[Source: procurement_policy.docx, Page 1] Purchases above Rs. 5 lakh need approval from the CFO.
+[Source: code_of_conduct.docx, Page 1] Gifts from vendors worth more than Rs. 2,000 must be declared to Legal within 7 days.
+[Source: procurement_policy.docx, Page 1] Standard vendor payment terms are 45 days from invoice.
+
+=== A4: How often are company laptops replaced?
+ANSWER: Laptops are replaced every 4 years [it_asset_policy.docx, p. 1].
+CONTEXT:
+[Source: it_asset_policy.docx, Page 1] Laptops are replaced every 4 years.
+[Source: it_security_policy.docx, Page 1] Company laptops must have disk encryption and antivirus enabled at all times. Lock your screen (Windows + L) whenever you leave your desk. Lost or stolen devices must be reported to IT wit
+[Source: handbook.pdf, Page 6] IT and Information Security Every employee receives a company email account and a laptop or desktop based on their role. Passwords must have at least 12 characters, including a number and a special c
+[Source: minutes_2026-03-16_it_steering_committee.txt, Page 1] The laptop refresh for 120 employees is approved for Q2. MFA adoption reached 96 percent.
+
+=== A5: How much internet reimbursement do remote workers get?
+ANSWER: An internet reimbursement of Rs. 1,000 per month is paid with salary [remote_work_policy.docx, p. 1].
+CONTEXT:
+[Source: remote_work_policy.docx, Page 1] An internet reimbursement of Rs. 1,000 per month is paid with salary.
+[Source: remote_work_policy.docx, Page 1] The company pays a monitor allowance of Rs. 6,000 once every 3 years.
+[Source: remote_work_policy.docx, Page 1] Remote employees must be online on Slack between 10 AM and 4 PM.
+[Source: handbook.pdf, Page 9] ised part-time degree or diploma related to their job can claim reimbursement of up to Rs 50,000 per year. Internal job openings are posted on the career portal for two weeks before they are advertis

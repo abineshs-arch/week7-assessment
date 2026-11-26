@@ -1,0 +1,8 @@
+code,category,limit_inr,approver
+EX-01,Domestic flights,15000,Reporting manager
+EX-02,Hotel stay,4500,Reporting manager
+EX-03,Daily food allowance,800,Auto-approved
+EX-04,Local taxi,1500,Reporting manager
+EX-05,Client entertainment,10000,Department head
+EX-06,Internet reimbursement,1000,Auto-approved
+EX-07,Certification fees,25000,L&D head
